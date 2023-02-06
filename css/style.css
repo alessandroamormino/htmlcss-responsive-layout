@@ -408,4 +408,12 @@ footer p a:focus{
     main .about-us-container .about-us-left {
         padding-right: 4em;
     }
+
+    main .cta h1 {
+        font-size: 5em;
+    }
+
+    main .cta .btn-cta {
+        padding: 1.5em 4em;
+    }
 }
