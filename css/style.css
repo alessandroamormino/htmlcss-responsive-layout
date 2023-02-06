@@ -394,13 +394,11 @@ footer p a:focus{
         font-size: 3em;
     }
 
-    main .testimonials{
-        text-align: left;
-    }
-
     main .testimonials .testimonials-card {
         flex-flow: row nowrap;
-        align-items: flex-end;
+        align-items: center;
+
+        text-align: left;
     }
 
     main .benefit .benefit-card-container {
