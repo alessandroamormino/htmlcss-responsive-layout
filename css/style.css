@@ -365,6 +365,12 @@ footer p a:focus{
 /* TABLET */
 @media screen and (min-width: 768px) {
 
+    .rounded{
+        width: 200px;
+        height: 200px;
+    }
+    
+
     main .showcase .card:first-child{
         width: calc(100% / 3 * 2 - (1em / 3 * 1));
     }
@@ -392,5 +398,14 @@ footer p a:focus{
     
     main .benefit .benefit-card {
         width: calc(100% / 2 - (2em / 2 * 1));
+    }
+
+    main .about-us-container {
+        flex-flow: row nowrap;
+        gap: 2em;
+    }
+
+    main .about-us-container .about-us-left {
+        padding-right: 4em;
     }
 }
