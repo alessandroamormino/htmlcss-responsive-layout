@@ -36,6 +36,13 @@ body{
     color: white;
 }
 
+.rounded{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 /* Assets */
 
@@ -200,13 +207,6 @@ main .testimonials .testimonials-card {
     color: white;
 }
 
-main .testimonials .testimonials-card .card-img > img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
 main .benefit {
     background-color: #9792E4;
     padding: 4em 0;
@@ -245,6 +245,46 @@ main .benefit .benefit-card h3 {
 
 main .benefit .benefit-card p {
     padding-bottom: 1em;
+}
+
+main .about-us {
+    padding: 4em 0;
+}
+
+main .about-us-container{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+}
+
+main .about-us-container .about-us-left h2 {
+    color: #9792E4;
+    font-size: 2.5em;
+}
+
+main .about-us-container .about-us-left p{
+    margin: 2em 0;
+    line-height: 2em;
+}
+
+main .about-us-container .about-us-right .about-img{
+    position: relative;
+
+    display: inline-block;
+}
+
+main .about-us-container .about-us-right .about-img .fa-solid{
+    position: absolute;
+    top: -20px;
+    right: -10px;
+
+    font-size: 4em;
+    color: #9792E4;
+}
+
+main .about-us-container .about-us-right h3{
+    color: #9792E4;
+    margin: 1em 0;
 }
 
 
