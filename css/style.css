@@ -335,6 +335,25 @@ main .cta .copyright a:focus {
     text-decoration: underline;
 }
 
-
-
 /* /Main */
+
+
+/* footer */
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+    font-size: .9em;
+}
+
+footer p:nth-child(2){
+    padding-top: 3em;
+}
+
+footer p a,
+footer p a:visited,
+footer p a:focus{
+    color: #9792E4;
+}
+/* /footer */
