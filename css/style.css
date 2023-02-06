@@ -287,5 +287,54 @@ main .about-us-container .about-us-right h3{
     margin: 1em 0;
 }
 
+main .cta {
+    background-color: #9792E4;
+    padding: 4em 2em;
+    color: white;
+    text-align: center;
+}
+
+main .cta .cta-header {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+main .cta h2{
+    padding: 1em 0;
+}
+
+main .cta h1{
+    padding: 1em 0;
+    font-size: 3em;
+    color: #FDC15F;
+}
+
+main .cta p {
+    padding-bottom: 1em;
+}
+
+main .cta .btn-cta {
+    border-radius: 50px;
+    padding: 1em 3em;
+    border: none;
+    background-color: #fff;
+    color: #9792E4;
+    font-size: 1.2em;
+
+    margin: 1em 0;
+}
+
+main .cta .copyright {
+    font-size: .9em;
+}
+
+main .cta .copyright a,
+main .cta .copyright a:visited, 
+main .cta .copyright a:focus {
+    color: white;
+    text-decoration: underline;
+}
+
+
 
 /* /Main */
