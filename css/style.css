@@ -106,4 +106,52 @@ main .showcase .card .fa-solid{
     color: #1884FD;
 }
 
+main .planning {
+    background-color: #9792E4;
+}
+
+main .planning .planning-container{
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 2em 0;
+}
+
+main .planning .planning-left > img{
+    width: 100%;
+    margin: 2em 0;
+}
+
+main .planning .planning-left h2, 
+main .planning .planning-left p {
+    color: white;
+    padding-bottom: 2em;
+}
+
+main .planning .planning-right {
+    background-color: white;
+    border-radius: 50px;
+
+    text-align: center;
+    padding: 1.5em;
+}
+
+main .planning .planning-right > img{
+    width: 100%;
+    margin: 1em 0;
+}
+
+main .planning .planning-right p{
+    padding: 2em 0;
+    font-style: italic;
+}
+
+main .planning .planning-right .fa-arrow-down {
+    padding: 1em 1.15em;
+    background-color: #9792E4;
+    border-radius: 50%;
+}
+
+
+
 /* /Main */
