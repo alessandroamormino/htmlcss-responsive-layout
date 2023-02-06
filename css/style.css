@@ -376,4 +376,14 @@ footer p a:focus{
     main .planning .planning-left h2 {
         font-size: 3em;
     }
+
+    main .testimonials{
+        text-align: left;
+    }
+
+    main .testimonials .testimonials-card {
+        flex-flow: row nowrap;
+        align-items: flex-end;
+    }
+
 }
