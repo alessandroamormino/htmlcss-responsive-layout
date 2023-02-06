@@ -75,6 +75,7 @@ main .showcase .card{
     border-radius: 20px;
 
     padding: 1.5em;
+    text-align: center;
 }
 
 main .showcase .card:first-child{
@@ -83,6 +84,7 @@ main .showcase .card:first-child{
     gap: 1.5em;
 
     padding-bottom: 0;
+    text-align: left;
 }
 
 main .showcase .card .card-inner > img {
@@ -90,17 +92,18 @@ main .showcase .card .card-inner > img {
     width: 100%;
 }
 
-/* main .showcase .card .card-inner{
-    text-align: center;
-} */
-
-
-main .showcase .card .card-inner h2{
+main .showcase .card h2{
     color: #1884FD;
 }
 
-main .showcase .card .card-inner p{
+main .showcase .card p{
     margin: 1.5em 0;
+}
+
+main .showcase .card .fa-solid{
+    font-size: 5em;
+    margin-bottom: 20px;
+    color: #1884FD;
 }
 
 /* /Main */
