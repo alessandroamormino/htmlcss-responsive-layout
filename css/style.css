@@ -7,6 +7,7 @@
 
 body{
     font-family: sans-serif;
+    padding-top: 100px;
 }
 
 .container-centered{
@@ -17,7 +18,10 @@ body{
 
 .btn {
     border-radius: 25px;
-    padding: .5em 2em;
+    padding: .5em 1em;
+    border: none;
+    font-size: 1em;
+    background-color: #fff;
 }
 
 .btn2 {
@@ -49,6 +53,11 @@ body{
 
 /* header */
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     background-color: #1884FD;
 }
 /* /header */
@@ -56,6 +65,8 @@ header {
 /* Nav */
 
 nav {
+
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -416,4 +427,35 @@ footer p a:focus{
     main .cta .btn-cta {
         padding: 1.5em 4em;
     }
+}
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+
+    nav .nav-right.mobile{
+        display: none;
+    }
+
+    nav .nav-right.desktop{
+        display: flex;
+        gap: 2em;
+    }
+
+    nav .nav-right.desktop ul {
+        display: flex;
+        align-items: center;
+        gap: 2em;
+
+        list-style-type: none;
+    }
+
+    nav .nav-right.desktop ul li a, 
+    nav .nav-right.desktop ul li a:visited, 
+    nav .nav-right.desktop ul li a:focus{
+        color: #fff;
+        text-decoration: none;
+    }
+    
 }
