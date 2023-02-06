@@ -457,5 +457,11 @@ footer p a:focus{
         color: #fff;
         text-decoration: none;
     }
+
+    main .planning .planning-container {
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        gap: 3em;
+    }
     
 }
