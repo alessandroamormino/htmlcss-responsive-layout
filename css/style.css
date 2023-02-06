@@ -461,5 +461,13 @@ footer p a:focus{
         align-items: flex-end;
         gap: 3em;
     }
+
+    main .benefit .benefit-card-container {
+        flex-flow: row wrap;
+    }
+    
+    main .benefit .benefit-card {
+        width: calc(100% / 3 - (2em / 3 * 2));
+    }
     
 }
