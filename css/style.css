@@ -61,6 +61,10 @@ nav .nav-right.mobile .fa-solid{
 
 /* Main */
 
+main {
+    line-height: 1.5em;
+}
+
 main .showcase{
     display: flex;
     flex-flow: wrap;
@@ -149,6 +153,49 @@ main .planning .planning-right p{
 main .planning .planning-right .fa-arrow-down {
     padding: 1em 1.15em;
     background-color: #9792E4;
+    border-radius: 50%;
+}
+
+main .testimonials {
+    margin: 3em 0;
+    text-align: center;
+}
+
+main .testimonials .testimonials-header{
+    text-transform: uppercase;
+}
+
+main .testimonials h2{
+    color: #9792E4;
+    padding: 1em 0;
+}
+
+main .testimonials p {
+    padding-bottom: 2em;
+}
+
+main .testimonials .testimonials-cards-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2em;
+}
+
+main .testimonials .testimonials-card {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1em;
+
+    background-color: #9792E4;
+    border-radius: 50px;
+
+    padding: 1em;
+    color: white;
+}
+
+main .testimonials .testimonials-card .card-img > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 50%;
 }
 
