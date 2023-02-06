@@ -5,3 +5,47 @@
 }
 /* Reset */
 
+.container-centered{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn {
+    color: black;
+    border-radius: 25px;
+    padding: .5em 2em;
+}
+/* Assets */
+
+/* header */
+header {
+    background-color: #1884FD;
+}
+/* /header */
+
+/* Nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-right.desktop{
+    display: none;
+}
+
+nav .nav-right.mobile .fa-solid{
+    font-size: 1.5em;
+    color: white;
+}
+
+nav .nav-left {
+    padding: .5em 1em;
+}
+
+nav .nav-right {
+    padding: .5em 1em;
+}
+
+/* /Nav */
