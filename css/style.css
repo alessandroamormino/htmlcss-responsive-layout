@@ -5,17 +5,32 @@
 }
 /* Reset */
 
+body{
+    font-family: sans-serif;
+}
+
 .container-centered{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 1.5em;
 }
 
 .btn {
-    color: black;
     border-radius: 25px;
     padding: .5em 2em;
 }
+
+.btn2 {
+    border-radius: 25px;
+    padding: .5em 5em;
+    border: none;
+    background-color: #1884FD;
+    color: white;
+}
+
+
 /* Assets */
+
 
 /* header */
 header {
@@ -29,6 +44,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding: .5em 0;
 }
 
 nav .nav-right.desktop{
@@ -40,12 +57,50 @@ nav .nav-right.mobile .fa-solid{
     color: white;
 }
 
-nav .nav-left {
-    padding: .5em 1em;
-}
-
-nav .nav-right {
-    padding: .5em 1em;
-}
-
 /* /Nav */
+
+/* Main */
+
+main .showcase{
+    display: flex;
+    flex-flow: wrap;
+    gap: 1em;
+
+    margin: 3em 0;
+}
+
+main .showcase .card{
+    width: 100%;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+
+    padding: 1.5em;
+}
+
+main .showcase .card:first-child{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+
+    padding-bottom: 0;
+}
+
+main .showcase .card .card-inner > img {
+    display: block;
+    width: 100%;
+}
+
+/* main .showcase .card .card-inner{
+    text-align: center;
+} */
+
+
+main .showcase .card .card-inner h2{
+    color: #1884FD;
+}
+
+main .showcase .card .card-inner p{
+    margin: 1.5em 0;
+}
+
+/* /Main */
