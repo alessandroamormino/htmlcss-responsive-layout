@@ -372,4 +372,8 @@ footer p a:focus{
     main .showcase .card {
         width: calc(100% / 3 - (1em / 3 * 2));
     }
+
+    main .planning .planning-left h2 {
+        font-size: 3em;
+    }
 }
